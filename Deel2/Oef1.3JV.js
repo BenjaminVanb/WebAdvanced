@@ -1,0 +1,13 @@
+let koekjeTekst = "Ik wil een koekje.";
+let uitkomst;
+let Plaats0;
+let Plaats3;
+let PlaatsK;
+let PlaatsE;
+uitkomst = koekjeTekst.length;
+Plaats0 = koekjeTekst.charAt(0);
+Plaats3 = koekjeTekst.charAt(3);
+PlaatsK = koekjeTekst.lastIndexOf("k");
+PlaatsE = koekjeTekst.lastIndexOf("e");
+document.getElementById('koekje').innerText = koekjeTekst;
+console.log(Plaats0 + Plaats3 + PlaatsK + PlaatsE + uitkomst);

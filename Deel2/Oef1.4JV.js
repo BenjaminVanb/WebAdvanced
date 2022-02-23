@@ -1,0 +1,17 @@
+let koekjeTekst = "Ik wil een koekje.";
+let uitkomst;
+let Plaats0;
+let Plaats3;
+let PlaatsK;
+let PlaatsE;
+let verander;
+let upper;
+uitkomst = koekjeTekst.length;
+Plaats0 = koekjeTekst.charAt(0);
+Plaats3 = koekjeTekst.charAt(3);
+PlaatsK = koekjeTekst.lastIndexOf("k");
+PlaatsE = koekjeTekst.lastIndexOf("e");
+verander = koekjeTekst.replace("koekje", "lasagne van PXL-catering");
+upper = verander.toUpperCase();
+document.getElementById('koekje').innerText = upper;
+console.log(Plaats0 + Plaats3 + PlaatsK + PlaatsE + uitkomst + verander + upper);
